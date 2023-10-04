@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-100 h-screen flex justify-center items-center">
+    <div
+      class="bg-white py-4 px-6 w-2/4 mx-auto w-full flex justify-center h-2/3"
+    >
+      <div class="js-dropdown-container relative">
+        <input
+          type="text"
+          placeholder="Subscriber Group"
+          class="rounded ring-1 px-2 py-1 focus:border-none focus:outline-none focus:ring-1 focus:ring-sky-500"
+        />
+        <nav
+          class="js-dropdown-menu absolute bg-slate-100 w-full shadow-1 rounded mt-1"
+        >
+          <ul class="w-full shadow-2 px-2 py-2">
+            <li class="hover:bg-white px-2 w-full py-2 rounded">A</li>
+            <li class="hover:bg-white px-2 w-full py-2 rounded">B</li>
+            <li class="hover:bg-white px-2 w-full py-2 rounded">C</li>
+            <li class="hover:bg-white px-2 w-full py-2 rounded">D</li>
+            <li class="hover:bg-white px-2 w-full pt-2 rounded pb-2">E</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>
